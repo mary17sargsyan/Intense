@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+	<head>
+		<title>TODO supply a title</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style.css" type="text/css" media="screen"> 
+		<!-- fafa code-->
+		<link rel="stylesheet" href="js/jquery-ui/jquery-ui.min.css">
+		<script src="js/jquery-3.3.1.min.js"></script>		
+		<script src="js/jquery-ui/jquery-ui.min.js"></script>	
+		<!-- fafa code -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+			<!-- google font -->
+		<link href="https://fonts.googleapis.com/css?family=Titan+One" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Concert+One" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		
+	</head>
+	
+	<body>
+		<div id="logoMenu">
+			<i class="fa fa-home" style="font-size:105px;color:#ffa64d; margin-left: 2%;"></i>
+				<i id="nameComp">
+				HomesTown<br>
+				Real Estate Property
+			</i>
+		</div>
+		<div id="bar">
+		
+			<i id="show" class="fa fa-bars" aria-hidden="true" style="font-size:165%;color:#ffa64d; margin-left: 3%; margin-top: 3%;">
+			<b id='menuBut'>Menu</b></i>
+
+				<ul id='menuBar'>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About Us</a> </li>
+					<li><a href="#">Take Tour</a> </li>
+					<li><a href="#">Pages</a></li>
+					<li><a href="#">Gallery</a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">Contact Us</a> </li>
+				</ul>
+			
+				<div id="slide">
+					<i id="left" class="fa fa-angle-left"></i>
+					<i id="right" class="fa fa-angle-right"></i>
+					<div id="reserv">
+						<h3 class="h3Slide">Red Berry </h3>
+						<h5 style="font-size:2vw; "> 508 Masachusetts Avenu,<br> Florida, United Sate </h5>
+						<table id="tableSlide">
+							<tr>
+								<td> 10,960<h5> Area SQ.FT  </h5> </td>
+								<td>6<h5>bedrooms  </h5></td>
+								<td>7<h5>bathrooms  </h5></td>
+							</tr>
+						</table>
+						<div id="buy">
+							<p>$2150.50 </p>
+							<button id="butOpenPopUp" > View Details
+							</button>
+						</div>
+					</div>
+				</div>
+		<div id="selection"><p id="move"> Find Your Home</p></div>
+			
+		<div id="comboBoxDiv">
+			<select class="selectHome">
+				<option>Property Type</option>
+				<option>House</option>
+				<option>Apartment</option>
+				 <option>Town House</option>
+			</select>
+				
+			<select class="selectHome">
+				<option>City</option>
+				<option>Barcelona</option>
+				<option>Spain</option>
+				<option>Bangkok</option>
+			</select>
+
+			<select class="selectHome">
+				<option>ZipCode</option>	
+				<option>2356</option>
+				<option>2567</option>
+				<option>2896</option>
+			</select>
+	
+			<select class="selectHome">
+				<option>Min Price</option>
+				<option>500$</option>
+				<option>1000$</option>
+				<option>2000$</option>
+			</select>
+			
+			<select class="selectHome">
+				<option>Max Price</option>
+				<option>5000$</option>
+				<option>10000$</option>
+				<option>20000$</option>
+			</select> <br>
+			<button id="searchBut"> Search</button>
+			<div id="afterSearch"><span id="close">&times;</span>
+				<p> You can singing now for more information <br>
+				We found 10 apartment</p> 
+				<!--
+				<form>
+					<div id="helpDiv"></div>
+					<input  class="helper" type="text" title="Please provide your FirstName">  FirstName	
+					<br>
+					<input	class="helper" type="text" title="Please provide also your LastName">  LastName
+					<br>
+					<input  class="helper" type="text" title="Please provide your E:mail">  E:Mail
+					<br>
+					<input	class="helper" type="password" title="Complate your password ">	 Password
+					<br>
+					<button id="signUp">
+						SignUp
+					</button>
+					</div>
+				</form>
+			-->
+
+		</div>
+		<!--		
+		<h1 class="standPar"> <p> resent</p> property</h1>
+		
+		<div class="catalogDiv"> 
+			<div> 
+				<img src="catalog/1.jpeg"> </img>
+			</div>
+			<div>
+				<img src="catalog/2.jpeg"> </img>
+			</div>
+			<div>
+					<img src="catalog/3.jpeg"> </img>
+			</div>
+			
+		</div>
+			<script src="index.js"></script>
+			
+		<!--
+		<!--	<!=
+			<ul>
+			<li class="current-menu-item"><a href="#">Home</a></li>
+			<li><a href="#">About Us</a> </li>
+			<li><a href="#">Take Tour</a> </li>
+			<li><a href="#">Pages</a>
+				<ul>
+				    <li><a href="#">Property</a></li>
+				    <li><a href="#">PropertyDetail</a></li>
+				    <li><a href="#">Faqs</a></li>
+				    <li><a href="#">404Page</a></li>
+				 </ul>
+			</li>
+			<li><a href="#">Gallery</a>
+				<ul>
+				   <li><a href="#">GalleryDefault</a></li>
+				   <li><a href="#">GalleryFullWidth </a></li>
+				</ul>   
+			
+			</li>
+			<li><a href="#">Blog</a>
+				<ul>
+				   <li><a href="#">BlogClassic</a></li>
+				   <li><a href="#">BlogThreeColumn </a></li>
+				   <li><a href="#">BlogSingle </a></li>
+				</ul>   
+			
+			</li>
+			<li><a href="#">Contact Us</a> </li>
+				      </div>
+		-->
+		
+	</body>
+
+	
+
+	
+

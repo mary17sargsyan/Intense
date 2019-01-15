@@ -1,0 +1,38 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+#menuFirst{
+	width: 80%;
+	height: 70px;
+	margin: auto;
+	list-style-type: none;
+}
+.rightLi{
+	margin-top: 3%;
+	float: left;
+}
+.leftLi{
+	margin-top: 3%;
+	float: right;
+}
+
+#menuFirst  a{
+	font-family: 'Bitter', serif;
+	font-size: 15px;
+	text-decoration: none;
+	color: #9a9899;
+	 padding: 16px;
+
+}
+hr{
+	width: 80%;
+	margin: auto;
+	color: #9a9899;
+}
+
+@media screen and (max-width: 600px){
+   
+   ul .menuFirst li {float: none;}
+}
